@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-heading-1 {
+  font-family: 'Roboto';
+  font-size: 22px;
+  text-align: center;
+  font-weight: 550;
+  color: #1e293b;
+}
+
+.app-heading-2 {
+  font-family: 'Roboto';
+  font-size: 27px;
+  color: #171f46;
+}
+
+.chrono-container {
+  width: 92%;
+  max-width: 1145px;
+  height: 82vh;
+  margin-top: 22px;
+}

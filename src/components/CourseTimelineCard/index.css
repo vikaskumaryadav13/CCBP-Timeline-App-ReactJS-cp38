@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.card-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-heading {
+  font-family: 'Roboto';
+  font-size: 17px;
+  margin: 0;
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-heading {
+    font-size: 24px;
+  }
+}
+
+.card-duration-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.card-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 2.5px;
+}
+
+.card-duration {
+  font-family: 'Roboto';
+  font-weight: 550;
+  margin: 0;
+  color: #1e293b;
+}
+
+.card-description {
+  font-family: 'Roboto';
+  font-weight: 450;
+  color: #1e293b;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card-description {
+    font-size: 15px;
+  }
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.tag-item {
+  padding: 4px 7px;
+  border-radius: 6px;
+  background-color: #e2e8f0;
+}
+
+.tag-name {
+  font-family: 'Roboto';
+  font-weight: 650;
+  font-size: 13px;
+  align-items: center;
+  color: #1e293b;
+  margin: 0;
+}

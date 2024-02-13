@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.project-image {
+  width: 100%;
+}
+
+.project-url-anchor {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 550;
+  margin-top: 13px;
+  color: #0967d2;
+}
